@@ -64,7 +64,7 @@ To evaluate the performance of EDSN on the previously acquired dataset, navigate
 
 ## Quick test for interpretable analysis
 
-修改```analysis.py```中的以下配置：
+modify ```analysis.py```：
 
 ```python
 # for EDSN
@@ -80,7 +80,7 @@ save_directory = r"saved output directory path"
 target_layers = ['down1', 'down2', 'down3', 'down4', 'up1', 'up2', 'up3', 'up4']
 ```
 
-为了进行可解释分析，运行以下命令：
+run this command for interpretable analysis：
 
 ```shell
 $ cd interpretable_module/
